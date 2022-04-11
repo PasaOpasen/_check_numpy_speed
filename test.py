@@ -35,9 +35,9 @@ def get_func_summary(func: Callable, kwargs: Dict, count: int):
 
     vals = []
 
-    import tqdm
+    #from tqdm import tqdm
 
-    for _ in tqdm.tqdm(range(count + 1)):
+    for _ in range(count + 1):
         t = time.time()
         func(**kwargs)
         vals.append(time.time() - t)
@@ -96,7 +96,7 @@ def main(prefix: str = 'env_name'):
         result[name] = get_func_summary(func, kwargs, count)
 
 
-    with open(f'./result/data_{prefix}.json', 'w', encoding='utf-8') as f:
+    with open(f'./result/{prefix}.json', 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=1)
 
     os.system(
@@ -112,7 +112,7 @@ def main(prefix: str = 'env_name'):
 if __name__ == '__main__':
 
     main(
-        #sys.argv[1]
+        sys.argv[1]
     )
 
 
