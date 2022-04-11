@@ -1,0 +1,1 @@
+Linux version 5.13.19-2-MANJARO (builduser@fv-az39-393) (gcc (GCC) 11.1.0, GNU ld (GNU Binutils) 2.36.1) #1 SMP PREEMPT Sun Sep 19 21:31:53 UTC 2021
