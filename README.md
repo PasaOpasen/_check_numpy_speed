@@ -7,9 +7,9 @@ research of checking speed of numpy for several systems
 
 There are 3 ways to install `numpy`:
 
-* pip
-* conda standart
-* conda forge
+* *pip*
+* *conda standart*
+* *conda forge*
 
 For all of them create conda enviroment:
 
