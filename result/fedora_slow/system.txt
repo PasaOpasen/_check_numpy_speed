@@ -1,0 +1,1 @@
+Linux version 5.14.10-300.fc35.x86_64 (mockbuild@bkernel01.iad2.fedoraproject.org) (gcc (GCC) 11.2.1 20210728 (Red Hat 11.2.1-1), GNU ld version 2.37-10.fc35) #1 SMP Thu Oct 7 20:48:44 UTC 2021
