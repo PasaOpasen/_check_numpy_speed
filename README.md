@@ -11,7 +11,7 @@ There are 3 ways to install `numpy`:
 * *conda standart*
 * *conda forge*
 
-For all of them create conda enviroment:
+For all of them create conda environment:
 
 ```
 conda create -n test_pip python==3.8.5
@@ -22,13 +22,13 @@ conda create -n test_conda_f python==3.8.5
 
 ```
 
-In every enviroment install `numpy` by:
+In every environment install `numpy` by:
 
 * `test_pip`: `pip install numpy==1.21.2`
 * `test_conda`: `conda install -c defaults numpy==1.21.2`
 * `test_conda_f`: `conda install -c conda-forge numpy==1.21.2`
 
-In each enviroment run command like:
+In each environment run command like:
 
 ```
 python test.py pip
