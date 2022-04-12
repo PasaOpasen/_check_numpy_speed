@@ -48,3 +48,9 @@ conda remove --name test_conda --all
 
 conda remove --name test_conda_f --all
 ```
+
+## Results
+
+![](result/times.jpg)
+
+![](result/sys.jpg)
